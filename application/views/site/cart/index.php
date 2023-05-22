@@ -44,7 +44,7 @@
                                     href="<?php echo base_url('cart/update/' . $items['cartid'] . '/sub'); ?>">-</a><input
                                     type="text" value="<?php echo $items['qty']; ?>"
                                     style="width: 30px;text-align: center;"><a class="cart-sumsub"
-                                    href="<?php echo base_url('cart/update/' . $items['cartid9'] . '/sum'); ?>">+</a>
+                                    href="<?php echo base_url('cart/update/' . $items['cartid'] . '/sum'); ?>">+</a>
                             </td>
                             <td style="min-width: 150px;padding-left: 40px">
                                 <a class="cart-sumsub"
