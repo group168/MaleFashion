@@ -39,7 +39,7 @@
                             <?php } ?>
                         </ul>
                     </li>
-                    <li><a href="<?php echo base_url('khuyen-mai'); ?>">Khuyến mại</a></li>
+                    <li><a href="<?php echo base_url('ban-chay'); ?>">Khuyến mại</a></li>
                     <li style="padding-top: 7px;margin-left: 10px">
                         <form method="post" action="<?php echo base_url('product/search_name');?>">
                             <button class="btn-search_info" type="submit"><i class="fa fa-search"></i></button>
