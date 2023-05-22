@@ -13,7 +13,7 @@
         <div class="panel panel-info">
             <div class="panel-body">
                 <h3>Thông tin khách hàng</h3>
-                <!-- <div class="table-responsive">
+                <div class="table-responsive">
 					<table class="table table-bordered">
 					  <tbody>
 					  	<tr>
@@ -42,7 +42,7 @@
 					  	</tr>
 					  </tbody>
 					</table>
-				</div><br> -->
+				</div><br>
                 <h3>Chi tiết đơn đặt hàng</h3>
                 <div class="table-responsive">
                     <table class="table table-hover">
