@@ -47,8 +47,8 @@
                         </form>
                     </li> -->
                 </ul>
-                <!-- <ul class="nav navbar-nav navbar-right">
-                    <?php /*$this->load->view('site/cart/cart_sh'); ?>
+                <ul class="nav navbar-nav navbar-right">
+                    <?php $this->load->view('site/cart/cart_sh'); ?>
 
                     <?php if (!isset($user)) { ?>
                     <li><a href="<?php echo base_url('dang-nhap'); ?>">Đăng nhập</a></li>
@@ -64,8 +64,8 @@
                             <li><a href="<?php echo base_url('user/logout'); ?>">Đăng xuất</a></li>
                         </ul>
                     </li>
-                    <?php } */?>
-                </ul> -->
+                    <?php }?>
+                </ul>
             </div><!-- /.navbar-collapse -->
 
         </div><!-- /.container-fluid -->
