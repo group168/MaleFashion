@@ -29,7 +29,7 @@
                             <div class="form-group">
                                 <label for="inputEmail3" class="col-sm-offset-2 col-sm-2 control-label">Họ tên</label>
                                 <div class="col-sm-4">
-                                    <input type="text" class="form-control" id="inputEmail3" placeholder="" name="name9"
+                                    <input type="text" class="form-control" id="inputEmail3" placeholder="" name="name"
                                         value="<?php echo set_value('name'); ?>">
                                 </div>
                                 <div class="col-sm-3">
