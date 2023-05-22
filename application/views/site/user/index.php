@@ -6,7 +6,7 @@
             <li class="active">Thông tin tài khoản</li>
         </ol>
         <div class="col-md-12 clearpadding">
-            <!-- <div class="panel panel-info">
+            <div class="panel panel-info">
 		  <div class="panel-heading">
 		    <h3 class="panel-title">Thông tin tài khoản</h3>
 		  </div>
@@ -16,8 +16,8 @@
 		  		<table class="table table-bordered">
 				  <tbody>
 				  	<tr>
-				  		<td style="width: 100px">Họ và tên</td>
-				  		<td><?php /*echo $user->name; ?></td>
+				  		<td style="width: 100px">Họ tên</td>
+				  		<td><?php echo $user->name; ?></td>
 				  	</tr>
 				  	<tr>
 				  		<td>Email</td>
@@ -29,13 +29,13 @@
 				  	</tr>
 				  	<tr>
 				  		<td>Địa chỉ</td>
-				  		<td><?php echo $user->address;*/ ?></td>
+				  		<td><?php echo $user->address;?></td>
 				  	</tr>
 				  </tbody>
 				</table></div>	
 		  	</div>
 		  </div>
-		</div> -->
+		</div>
 
         </div>
     </div>
