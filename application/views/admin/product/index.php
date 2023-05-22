@@ -59,7 +59,7 @@ $(document).ready(function() {
                     <use xlink:href="#stroked-plus-sign" />
                 </svg> Thêm sản phẩm</a></div>
         <div class="col-md-1"></div>
-        <!-- <div class="col-md-6"  style="float:right;margin-top: 5px">
+         <div class="col-md-6"  style="float:right;margin-top: 5px">
             <form role="search" action='<?php /*echo admin_url('product/search'); */?>' method="post">
                 <div class="form-group">
                     <input name="search" type="text" class="form-control" placeholder="Nhập tên sản phẩm">
@@ -67,7 +67,7 @@ $(document).ready(function() {
                 </div>
                 <button class="btn text-right" style="position: absolute;right: 16px;top: 2px;float:right; padding: 4px 8px 4px 8px;" type="submit"><img src="<?php echo base_url(); ?>/upload/ic_search.png" /></button>
             </form>
-        </div> -->
+        </div> 
 
     </div>
     <div class="panel-body">
