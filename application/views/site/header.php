@@ -40,15 +40,15 @@
                         </ul>
                     </li>
                     <li><a href="<?php echo base_url('khuyen-mai'); ?>">Khuyến mại</a></li>
-                    <!-- <li style="padding-top: 7px;margin-left: 10px">
-                        <form method="post" action="<?php /*echo base_url('product/search_name'); */?>">
+                    <li style="padding-top: 7px;margin-left: 10px">
+                        <form method="post" action="<?php echo base_url('product/search_name');?>">
                             <button class="btn-search_info" type="submit"><i class="fa fa-search"></i></button>
                             <input id="seach_info" type="text" name="search" placeholder="Tìm kiếm..">
                         </form>
-                    </li> -->
+                    </li>
                 </ul>
-                <!-- <ul class="nav navbar-nav navbar-right">
-                    <?php /*$this->load->view('site/cart/cart_sh'); ?>
+                <ul class="nav navbar-nav navbar-right">
+                    <?php $this->load->view('site/cart/cart_sh'); ?>
 
                     <?php if (!isset($user)) { ?>
                     <li><a href="<?php echo base_url('dang-nhap'); ?>">Đăng nhập</a></li>
@@ -64,8 +64,8 @@
                             <li><a href="<?php echo base_url('user/logout'); ?>">Đăng xuất</a></li>
                         </ul>
                     </li>
-                    <?php } */?>
-                </ul> -->
+                    <?php }?>
+                </ul>
             </div><!-- /.navbar-collapse -->
 
         </div><!-- /.container-fluid -->
